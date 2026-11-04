@@ -1,0 +1,374 @@
+# Copyright (C) 2026 
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: YouTube Bulk Importer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yt-bulk-importer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T03:58:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ytbi\n"
+
+#. Plugin Name of the plugin
+#: yt-bulk-importer.php
+msgid "YouTube Bulk Importer"
+msgstr ""
+
+#. Description of the plugin
+#: yt-bulk-importer.php
+msgid "Search YouTube and bulk-import videos as posts. The video is stored as a URL in the post content and rendered by WordPress oEmbed."
+msgstr ""
+
+#: includes/class-ytbi-admin.php:111
+msgid "YouTube"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:142
+#: includes/class-ytbi-admin.php:150
+#: includes/view-import.php:11
+msgid "YouTube Import"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:143
+msgid "YT Importer"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:150
+msgid "Import Videos"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:151
+msgid "Imported Videos"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:182
+msgid "— No category —"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:183
+msgid "No videos match."
+msgstr ""
+
+#: includes/class-ytbi-admin.php:184
+msgid "Queued"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:185
+msgid "Importing…"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:186
+msgid "Imported"
+msgstr ""
+
+#: includes/class-ytbi-admin.php:187
+msgid "Edit post"
+msgstr ""
+
+#: includes/class-ytbi-importer.php:46
+msgid "This video is already imported."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-ytbi-importer.php:279
+#, php-format
+msgid "Featured image failed: %s"
+msgstr ""
+
+#: includes/class-ytbi-rest.php:163
+msgid "Unknown category."
+msgstr ""
+
+#: includes/class-ytbi-rest.php:281
+msgid "Add a YouTube API key in YT Importer → Settings first."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:175
+#: includes/class-ytbi-settings.php:344
+msgid "YouTube Bulk Importer Settings"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:176
+msgid "Settings"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:203
+msgid "YouTube API key"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:207
+msgid "Results per page"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:213
+msgid "Default post status"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:218
+msgid "Post type"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:223
+msgid "Category taxonomy"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:228
+msgid "Tag taxonomy"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:233
+msgid "Import description"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:235
+msgid "Copy the YouTube description into the post content below the video."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:238
+msgid "Import tags"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:240
+msgid "Copy the video tags from YouTube into the tag taxonomy."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:243
+msgid "Max tags per video"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:246
+msgid "Only used when tag import is on. 0 means no limit."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:249
+msgid "Featured image"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:251
+msgid "Download the YouTube thumbnail and set it as the featured image."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:254
+msgid "Content format"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:257
+msgid "Auto (match the editor of the post type)"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:258
+msgid "Block editor"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:259
+msgid "Classic editor"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:261
+msgid "Both formats render the same player through oEmbed."
+msgstr ""
+
+#: includes/class-ytbi-settings.php:264
+msgid "Store duration"
+msgstr ""
+
+#: includes/class-ytbi-settings.php:266
+msgid "Save the video length in seconds as hidden post meta _ytbi_duration."
+msgstr ""
+
+#. translators: %s: last four characters of the saved API key.
+#: includes/class-ytbi-settings.php:287
+#, php-format
+msgid "Saved key ending in %s. Leave empty to keep it."
+msgstr ""
+
+#: includes/class-ytbi-youtube.php:133
+msgid "Video not found. It may be private or deleted."
+msgstr ""
+
+#: includes/class-ytbi-youtube.php:261
+msgid "Daily YouTube API quota used up. It resets at midnight Pacific time."
+msgstr ""
+
+#: includes/class-ytbi-youtube.php:262
+msgid "YouTube rejected the API key. Check the plugin settings."
+msgstr ""
+
+#: includes/class-ytbi-youtube.php:263
+msgid "Channel or playlist not found."
+msgstr ""
+
+#: includes/class-ytbi-youtube.php:280
+msgid "Unknown YouTube API error."
+msgstr ""
+
+#: includes/view-import.php:16
+msgid "No YouTube API key set."
+msgstr ""
+
+#: includes/view-import.php:17
+msgid "Open settings"
+msgstr ""
+
+#: includes/view-import.php:25
+#: includes/view-import.php:66
+msgid "Search"
+msgstr ""
+
+#: includes/view-import.php:26
+msgid "Keyword, channel ID, or playlist ID"
+msgstr ""
+
+#: includes/view-import.php:28
+msgid "Search type"
+msgstr ""
+
+#: includes/view-import.php:29
+msgid "Keyword"
+msgstr ""
+
+#: includes/view-import.php:30
+msgid "Channel ID"
+msgstr ""
+
+#: includes/view-import.php:31
+msgid "Playlist ID"
+msgstr ""
+
+#: includes/view-import.php:34
+msgid "Order"
+msgstr ""
+
+#: includes/view-import.php:35
+msgid "Relevance"
+msgstr ""
+
+#: includes/view-import.php:36
+msgid "Newest"
+msgstr ""
+
+#: includes/view-import.php:37
+msgid "Most viewed"
+msgstr ""
+
+#: includes/view-import.php:38
+msgid "Top rated"
+msgstr ""
+
+#: includes/view-import.php:39
+#: includes/view-import.php:88
+msgid "Title"
+msgstr ""
+
+#: includes/view-import.php:42
+msgid "Published within"
+msgstr ""
+
+#: includes/view-import.php:43
+msgid "Any time"
+msgstr ""
+
+#: includes/view-import.php:44
+msgid "Last hour"
+msgstr ""
+
+#: includes/view-import.php:45
+msgid "Last day"
+msgstr ""
+
+#: includes/view-import.php:46
+msgid "Last week"
+msgstr ""
+
+#: includes/view-import.php:47
+msgid "Last month"
+msgstr ""
+
+#: includes/view-import.php:48
+msgid "Last year"
+msgstr ""
+
+#: includes/view-import.php:51
+msgid "Definition"
+msgstr ""
+
+#: includes/view-import.php:52
+msgid "Any definition"
+msgstr ""
+
+#: includes/view-import.php:53
+msgid "HD only"
+msgstr ""
+
+#: includes/view-import.php:56
+msgid "Dimension"
+msgstr ""
+
+#: includes/view-import.php:57
+msgid "2D and 3D"
+msgstr ""
+
+#: includes/view-import.php:58
+msgid "3D only"
+msgstr ""
+
+#: includes/view-import.php:61
+msgid "License"
+msgstr ""
+
+#: includes/view-import.php:62
+msgid "Any license"
+msgstr ""
+
+#: includes/view-import.php:63
+msgid "Creative Commons"
+msgstr ""
+
+#: includes/view-import.php:70
+msgid "Select all"
+msgstr ""
+
+#: includes/view-import.php:71
+msgid "Category"
+msgstr ""
+
+#: includes/view-import.php:72
+msgid "Post status"
+msgstr ""
+
+#: includes/view-import.php:73
+msgid "Import selected"
+msgstr ""
+
+#: includes/view-import.php:76
+msgid "Previous"
+msgstr ""
+
+#: includes/view-import.php:77
+msgid "Next"
+msgstr ""
+
+#: includes/view-import.php:85
+msgid "Select video"
+msgstr ""
+
+#: includes/view-import.php:89
+msgid "Description"
+msgstr ""
+
+#: includes/view-import.php:90
+msgid "Tags, comma separated"
+msgstr ""
+
+#: includes/view-import.php:90
+msgid "Tags"
+msgstr ""
+
+#: includes/view-import.php:96
+msgid "Retry"
+msgstr ""
